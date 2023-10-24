@@ -1,0 +1,8 @@
+alguma_coisa = input('Digite alguma coisa: ')
+print(f'O tipo deste objeto é: {type(alguma_coisa)}')
+print(f'Este objeto é numerico? {alguma_coisa.isnumeric()}')
+print(f'Este objeto é alfabetico? {alguma_coisa.isalpha()}')
+print(f'Este objeto é minusculo? {alguma_coisa.islower()}')
+print(f'Este objeto é maisculo? {alguma_coisa.isupper()}')
+print(f'Este objeto tem maiscula como primeira letra? {alguma_coisa.istitle()}')
+print(f'Este objeto tem espaços? {alguma_coisa.isspace()}')

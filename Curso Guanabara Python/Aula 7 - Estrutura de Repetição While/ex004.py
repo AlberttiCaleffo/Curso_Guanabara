@@ -1,0 +1,14 @@
+# Exercício Python 060: Faça um programa que leia um número qualquer e mostre o seu fatorial. Exemplo:
+
+# 5! = 5 x 4 x 3 x 2 x 1 = 120
+
+numero = int(input('Digite um numero para ver seu fatorial: '))
+contador = numero
+multiplicacao = contador
+
+print(f'{numero}! = ', end='')
+while contador != 1:
+    print(f'{contador}', end=' x ')
+    contador -= 1
+    multiplicacao *= contador
+print(f'1 = {multiplicacao}')
